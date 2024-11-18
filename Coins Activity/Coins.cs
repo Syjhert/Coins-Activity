@@ -89,7 +89,7 @@ namespace Coins_Activity
                         else if ( pixelCount > 1000)
                         {
                             cent5Count++;
-                            totalValue += .5f;
+                            totalValue += .05f;
                         }
 
                         totalCount++;
