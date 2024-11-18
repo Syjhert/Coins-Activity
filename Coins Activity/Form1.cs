@@ -44,7 +44,7 @@ namespace Coins_Activity
             Cent25Count.Text = cent25Count.ToString();
             Cent10Count.Text = cent10Count.ToString();
             Cent5Count.Text = cent5Count.ToString();
-            TotalValue.Text = totalValue.ToString();
+            TotalValue.Text = Math.Round(totalValue, 2).ToString();
         }
     }
 }
