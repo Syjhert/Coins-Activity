@@ -101,7 +101,7 @@ namespace Coins_Activity
 
         private static int GetPixelCount(Bitmap image, int x, int y, ref bool[,] seen)
         {
-            //Depth First
+            //Breadth First
             Queue<int[]> queue = new Queue<int[]>();
             queue.Enqueue([x, y]);
             int pixelCount = 0;
